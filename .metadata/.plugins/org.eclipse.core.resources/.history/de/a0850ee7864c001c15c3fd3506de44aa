@@ -1,0 +1,20 @@
+package br.com.alura;
+
+public class Aula {
+	private String Titulo;
+	private int Tempo;
+
+	public Aula(String titulo, int tempo) {
+	 	Titulo = titulo;
+		Tempo = tempo;
+	}
+	
+	public String getTitulo() {
+		return Titulo;
+	}
+	
+	public int getTempo() {
+		return Tempo;
+	}
+
+}

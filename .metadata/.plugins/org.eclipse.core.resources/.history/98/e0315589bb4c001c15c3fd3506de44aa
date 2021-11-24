@@ -1,0 +1,7 @@
+
+public class TestaGeteSet {
+	public static void main(String[] args) {
+		Conta bruno = new Conta();
+		bruno.getAgencia(13);
+		
+	}}

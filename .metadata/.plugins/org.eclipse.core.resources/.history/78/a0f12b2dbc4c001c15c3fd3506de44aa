@@ -1,0 +1,10 @@
+
+public class TestaGeteSet {
+	public static void main(String[] args) {
+		Conta bruno = new Conta();
+		bruno.setAgencia(13);
+		bruno.setNumero(1323);
+		bruno.setSaldo(1000);
+		bruno.setTitular(Cliente Bruno);
+		
+	}}

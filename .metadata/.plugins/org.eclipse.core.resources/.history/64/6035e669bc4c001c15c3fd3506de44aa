@@ -1,0 +1,17 @@
+
+public class TestaGeteSet {
+	public static void main(String[] args) {
+		Conta bruno = new Conta();
+		Cliente Bruno = new Cliente();
+		bruno.setAgencia(13);
+		bruno.setNumero(1323);
+		bruno.setSaldo(1000);
+		bruno.setTitular(Bruno);
+		Bruno.setCpf("222.222.222-10");
+		Bruno.setNome("Bruno Costa");
+		Bruno.setProfissao("Programador");
+		
+		System.out.println(Bruno);
+		
+		
+	}}
